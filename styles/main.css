@@ -7270,3 +7270,7 @@ a.credit {
 .font-icon {
   padding-top: 13px;
 }
+.dl-list {
+  margin-top: 0;
+  margin-bottom: 0;
+}
