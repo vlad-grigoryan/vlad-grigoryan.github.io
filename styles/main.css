@@ -3087,7 +3087,7 @@ body {
 
 .nav-pills .nav-item i {
   display: block;
-  font-size: 20px;
+  /*font-size: 20px;*/
   line-height: 60px;
 }
 
@@ -7266,4 +7266,8 @@ a.credit {
 /* Common Style */
 .section {
   padding-bottom: 0;
+}
+.font-icon {
+  font-size: 2rem;
+  padding-top: 13px;
 }
