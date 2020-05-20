@@ -4634,7 +4634,7 @@ Created using IcoMoon - icomoon.io
           box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.2);
 }
 .card-height {
-  height: 593px;
+  height: 630px;
 }
 
 .card .card-body {
@@ -6941,7 +6941,7 @@ Created using IcoMoon - icomoon.io
   transform: scale(0, 0);
   -webkit-transform-origin: 0 0;
   transform-origin: 0 0;
-  max-height: 50%;
+  max-height: 40%;
 }
 
 .gallery figure.cc-effect figcaption::after {
@@ -6953,11 +6953,17 @@ Created using IcoMoon - icomoon.io
   transform: scale(0, 0);
   -webkit-transform-origin: 100% 0;
   transform-origin: 100% 0;
-  max-height: 50%;
+  max-height: 40%;
 }
 
 .gallery figure.cc-effect .h4 {
   /*margin-top: 25%;*/
+  position: absolute;
+  width: 100%;
+  top: 25%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
   -webkit-transition: -webkit-transform 0.35s;
   transition: -webkit-transform 0.35s;
   transition: transform 0.35s;
@@ -7278,4 +7284,10 @@ a.credit {
 .dl-list {
   margin-top: 0;
   margin-bottom: 0;
+}
+.project-container{
+  text-align: center !important;
+}
+.card .card-image {
+  height: 42px;
 }
