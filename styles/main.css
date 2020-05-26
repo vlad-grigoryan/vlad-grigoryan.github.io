@@ -4637,10 +4637,16 @@ Created using IcoMoon - icomoon.io
   .card-height {
     height: 630px;
   }
+  .card-height-without-image {
+    height: 500px;
+  }
 }
 @media only screen and (max-width: 400px) {
   .card-height {
     height: 665px;
+  }
+  .card-height-without-image {
+    height: 520px;
   }
 }
 
