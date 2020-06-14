@@ -7318,3 +7318,6 @@ a.credit {
 .left-padding {
   padding-left: 20px;
 }
+.no-visibility {
+  visibility: hidden;
+}
