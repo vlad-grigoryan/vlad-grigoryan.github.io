@@ -1,0 +1,31 @@
+.ts-icon {
+    width: 100px; /* Adjust size as needed */
+    height: 100px; /* Adjust size as needed */
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100' width='100' height='100'%3E%3Crect x='25' y='30' width='10' height='40' fill='%233178C6' /%3E%3Cpath d='M35,30 L35,70' fill='none' stroke='%233178C6' stroke-width='8' /%3E%3Cpath d='M55,50 A20,20 0 0,1 45,50' fill='none' stroke='%233178C6' stroke-width='8' /%3E%3Cpath d='M45,30 L45,70' fill='none' stroke='%233178C6' stroke-width='8' /%3E%3Ccircle cx='70' cy='50' r='4' fill='%233178C6' /%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-size: contain; /* Ensure the icon fits within the specified dimensions */
+}
+.small-size {
+    font-size: 13px;
+    font-style: italic;
+    font-weight: 500;
+}
+.dark-mode .project-card  {
+    background: #1e2a3a !important;
+}
+
+.achievements-list {
+    padding-left: 15px;
+}
+/*@media (min-width: 576px) {*/
+/*    .client-field {*/
+/*        right: 0;*/
+/*    }*/
+/*}*/
+
+@media (min-width: 992px) {
+    .client-field {
+        position: absolute;
+        bottom: 0;
+    }
+}
